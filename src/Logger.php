@@ -8,16 +8,6 @@ class Logger extends AbstractLogger
 {
     private function formatMessage($message, $logLevel, $context)
     {
-        $logLevelPrefix = [
-            'emergency' => 0,
-            'alert'     => 1,
-            'critical'  => 2,
-            'error'     => 3,
-            'warning'   => 4,
-            'notice'    => 5,
-            'info'      => 6,
-            'debug'     => 7,
-        ];
         $message          = str_replace("'", "\'", $message);
         $formattedMessage = '[' . date('Y-m-d H:i:s') . ']';
         $formattedMessage = $formattedMessage . ' ' . strtoupper($logLevel) . ': ';
