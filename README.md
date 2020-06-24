@@ -2,15 +2,22 @@
 
 ## How it started ?
 
-We all have been in situations where we wanted to step through the code by logging the variable. Most of the time we simple do.
+We all have been in situations where we wanted to step through the code by logging the variable details. Most of the time we simply do.
 
-    print_r($array);die();
+    print_r($variable);die();
 
 And I find this process tedious, stopping for a simple variable log. I wanted a simple console log just like Javascript which is my inspiration behind creating console logger.
 
 It is similar console log, it follows [PSR-3: Logger Interface](https://www.php-fig.org/psr/psr-3/) standards so you don't have to learn anything new.
 
-## How to user it ?
+## How to use it ?
+1. Install the Package using composer
+    
+    composer require akshaykhale1992/console-logger
+    
+2. User the Logger
+
+Sample Code:
 
 
     <?php
@@ -34,5 +41,4 @@ It is similar console log, it follows [PSR-3: Logger Interface](https://www.php-
 
 ## To-DO
 
-- Creating a composer Package.
 - Adding Test cases.
