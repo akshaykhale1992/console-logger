@@ -1,5 +1,5 @@
 {
-    "name": "akshay/console-logger",
+    "name": "akshaykhale1992/console-logger",
     "description": "A simple logger for PHP which logs into Browser's console log instead of a File or a Database.",
     "type": "library",
     "authors": [
