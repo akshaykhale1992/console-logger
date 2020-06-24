@@ -11,6 +11,13 @@ And I find this process tedious, stopping for a simple variable log. I wanted a 
 It is similar console log, it follows [PSR-3: Logger Interface](https://www.php-fig.org/psr/psr-3/) standards so you don't have to learn anything new.
 
 ## How to user it ?
+1. Install the Package using composer
+    
+    composer require akshaykhale1992/console-logger
+    
+2. User the Logger
+
+Sample Code:
 
 
     <?php
@@ -34,5 +41,4 @@ It is similar console log, it follows [PSR-3: Logger Interface](https://www.php-
 
 ## To-DO
 
-- Creating a composer Package.
 - Adding Test cases.
