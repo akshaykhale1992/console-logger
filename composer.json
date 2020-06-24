@@ -1,0 +1,25 @@
+{
+    "name": "akshay/console-logger",
+    "description": "A simple logger for PHP which logs into Browser's console log instead of a File or a Database.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Akshay Khale",
+            "email": "khaleakshay@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "consolelogger\\": "src/"
+        },
+        "classmap": ["src/"]
+    },
+    "license": "MIT"
+}
