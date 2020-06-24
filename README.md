@@ -1,5 +1,8 @@
 # A simple Browser Console Logger for PHP
 
+[![scrutinizer build status](https://scrutinizer-ci.com/g/akshaykhale1992/console-logger/badges/build.png?b=master)](https://scrutinizer-ci.com/g/akshaykhale1992/console-logger/?branch=master)
+[![scrutinizer version code](https://scrutinizer-ci.com/g/akshaykhale1992/console-logger/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/akshaykhale1992/console-logger/?branch=master)
+
 ## How it started ?
 
 We all have been in situations where we wanted to step through the code by logging the variable details. Most of the time we simply do.
